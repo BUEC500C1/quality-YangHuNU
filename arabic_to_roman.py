@@ -3,7 +3,7 @@ def int_to_Roman(self, n):
     syb = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
     roman_num = ''
     i = 0
-    while  num > 0:
+    while  n > 0:
         for _ in range(n // val[i]):
             roman_num += syb[i]
             n -= val[i]
