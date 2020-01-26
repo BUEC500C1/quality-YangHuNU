@@ -11,5 +11,4 @@ def int_to_Roman(self, n):
     return roman_num
 
 if __name__ == '__main__':
-    for case in range(0,10000):
-        print(int_to_Roman(case))
+    print(int_to_Roman(case))
