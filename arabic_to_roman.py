@@ -9,6 +9,3 @@ def int_to_Roman(n):
             n -= val[i]
         i += 1
     return roman_num
-
-def test_answer():
-    assert int_to_Roman(10) == 'X'
