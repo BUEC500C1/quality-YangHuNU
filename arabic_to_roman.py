@@ -10,5 +10,5 @@ def int_to_Roman(n):
         i += 1
     return roman_num
 
-if __name__ == '__main__':
-    print(int_to_Roman(10))
+def test_answer():
+    assert int_to_Roman(10) == 'X'
