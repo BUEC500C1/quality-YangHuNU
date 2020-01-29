@@ -1,4 +1,8 @@
 def int_to_Roman(n):
+    if not isinstance(n, int):
+        return "String is not an int"
+    if n > 3999 or n < 1:
+        return "Number out of range"
     val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
     syb = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
     roman_num = ''
